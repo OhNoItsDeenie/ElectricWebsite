@@ -2,3 +2,121 @@
 a.active {
     font-weight: bold;
 }
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    
+}
+header{
+    background-color: #001D49;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+}
+.appointmentButton{
+    background-color: #006991;
+    padding: 10px;
+    font-size: 30px;
+    color:#ffffff;
+    
+}
+.top:nth-of-type(1){
+    flex:2;
+    padding-right: 5%;
+    padding-left: 10%;
+}
+.top:nth-of-type(2){
+    flex:1;
+    
+}
+
+nav{
+    font-weight: bold;
+    background-color: #006991;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    padding-left: 10%;
+}
+.navButton{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #006991;
+}
+#navButtonActive{
+    color: #000000;
+    background-color: #ffffff;
+}
+footer{
+    background-color: #ECA400;
+    text-align: right;
+    padding: 10px;
+    padding-right: 10%;
+}
+h6{
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-right: 40px;
+    line-height: 0;
+    
+}
+h5{
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-right: 40px;
+    line-height: 0;
+    
+}
+.Info{
+    display: flex;
+    margin: 15px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.AboutText:nth-of-type(1){
+    margin: 15px;
+
+    flex:1;
+}
+.AboutText:nth-of-type(2){
+    margin: 15px;
+    flex:2;
+    right: 50%;
+}
+.ComText:nth-of-type(1){
+    margin: 20px;
+    flex:1;
+}
+.ComText:nth-of-type(2){
+    margin: 20px;
+
+    flex:1;
+}
+.exampleList:nth-of-type(2){
+    background-color: #b4d6e2;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex:1;
+    text-align: center;
+}
+#list{
+
+    text-align: left;
+    margin: 25px;
+    margin-left: 10%;
+}
+.image{
+    max-width: 350px;
+    width: 100%;
+    padding: 20px;
+    padding-left: 40%;
+}
+.copyright{
+    padding-left: 20px;
+    font-size: 10px;
+    color: #969599;
+}
